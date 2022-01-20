@@ -6,7 +6,9 @@ void main() => runApp(MaterialApp(
       title: Text("my first app"),
       centerTitle: true,
     ),
-
+    body: const Center(
+      child: Text("Hello Ninjas"),
+    ),
 
   ),
 
