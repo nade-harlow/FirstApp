@@ -9,7 +9,10 @@ void main() => runApp(MaterialApp(
     body: const Center(
       child: Text("Hello Ninjas"),
     ),
-
+    floatingActionButton: FloatingActionButton(
+      onPressed: () {  },
+      child: Text("click"),
+  ),
   ),
 
 ));
